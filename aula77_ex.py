@@ -22,11 +22,9 @@ for pergunta in perguntas:
     print("Pergunta:", pergunta["Pergunta"])
     print()
     print("Opções: ")
-    cont = 1
 
-    for opcao in pergunta["Opções"]:
-        print(f"{cont})", opcao)
-        cont += 1
+    for i, opcao in enumerate(pergunta["Opções"]):
+        print(f"{i + 1})", opcao)
 
     usuario = int(input("Escolha uma opção: ")) - 1
 
