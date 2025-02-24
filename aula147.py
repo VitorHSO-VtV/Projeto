@@ -1,4 +1,4 @@
-# Exemplo de uso de dunder methods (métodos mágicos)
+ # Exemplo de uso de dunder methods (métodos mágicos)
 # __lt__(self,other) - self < other
 # __le__(self,other) - self <= other
 # __gt__(self,other) - self > other
