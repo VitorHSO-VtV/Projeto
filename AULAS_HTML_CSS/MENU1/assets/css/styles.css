@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    margin: auto 1%;
+}
+
+.screen1 {
+    background-color: aqua;
+    padding-top: 6vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.screen2 {
+    background-color: blueviolet;
+    padding-top: 6vh;
+    width: 100vw;
+    height: 100vh;
+}
